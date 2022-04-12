@@ -1,0 +1,37 @@
+<!--hsl = hue-saturation-lightness-->
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo de colores</title>
+</head>
+<body>
+    <h1>Aprendiendo HTML</h1>
+
+    <p style='color: crimson;'>
+        color por nombre
+    </p>
+
+    <p style="color: rgb(220, 20, 60);">
+        Color por rgb
+    </p>
+
+    <p style="border: 10px solid; color: hsl()"><!--la a es de alfa sirve par indicar la transparencia del color 1 sin transparencia 0 cien por ciento de transparencia .5 50% de transparencia-->
+        Color por rgb con transparencia
+    </p>
+
+    <p style="color: hsl(348, 83%, 47%);"><!--El primer parametro maneja el color en grados ya que es una circunferencia, el segundo parametro maneja la escala de grises y el tercer parametro maneja la saturación o iluminación-->
+        Color por código hsl
+    </p>
+
+    <p style="color: hsla(348, 83%, 47%, .5);"><!--El primer parametro maneja el color en grados ya que es una circunferencia, el segundo parametro maneja la escala de grises y el tercer parametro maneja la saturación o iluminación-->
+        Color por código hsla con transparencia
+    </p>
+
+    <p style="color: #dc143c;"><!--Los colores hexadecimales tienen 6 digitos el primer par es para rojo el segundo par es para el verde, el tercer par es para el azul-->
+        Color por hexadecimal
+    </p>
+
+</body>
+</html>
